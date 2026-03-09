@@ -1,0 +1,24 @@
+
+
+numbers = [10, 20, 30, 40]
+
+print("Original List:", numbers)
+
+numbers.append(50)
+print("After append:", numbers)
+
+numbers.insert(2, 25)
+print("After insert:", numbers)
+
+numbers.remove(30)
+print("After remove:", numbers)
+
+numbers.sort()
+print("Sorted List:", numbers)
+
+numbers.reverse()
+print("Reversed List:", numbers)
+
+print("Length of list:", len(numbers))
+print("Maximum value:", max(numbers))
+print("Minimum value:", min(numbers))
