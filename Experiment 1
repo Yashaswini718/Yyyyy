@@ -1,0 +1,30 @@
+
+a = 10         
+b = 5.5        
+c = "Python"    
+d = True       
+
+print("Integer value:", a)
+print("Float value:", b)
+print("String value:", c)
+print("Boolean value:", d)
+
+
+x = 12
+y = 4
+
+print("\nArithmetic Operators")
+print("Addition:", x + y)
+print("Subtraction:", x - y)
+print("Multiplication:", x * y)
+print("Division:", x / y)
+print("Modulus:", x % y)
+
+print("\nRelational Operators")
+print("x > y:", x > y)
+print("x < y:", x < y)
+print("x == y:", x == y)
+
+print("\nLogical Operators")
+print("x>5 and y<10:", x>5 and y<10)
+print("x>20 or y<10:", x>20 or y<10)
