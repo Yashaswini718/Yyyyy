@@ -1,0 +1,18 @@
+n = int(input("Enter a number: "))
+
+if n > 0:
+    print("Number is Positive")
+elif n < 0:
+    print("Number is Negative")
+else:
+    print("Number is Zero")
+
+print("For Loop Output")
+for i in range(1,6):
+    print(i)
+
+print("While Loop Output")
+i = 1
+while i <= 5:
+    print(i)
+    i = i + 1
