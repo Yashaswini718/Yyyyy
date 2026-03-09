@@ -1,0 +1,30 @@
+
+
+t = (10, 20, 30, 20, 40)
+
+print("Original Tuple:", t)
+
+print("Length of tuple:", len(t))
+
+print("Maximum value:", max(t))
+
+print("Minimum value:", min(t))
+
+print("Count of 20:", t.count(20))
+
+print("Index of 30:", t.index(30))
+
+# Accessing elements
+print("First element:", t[0])
+print("Last element:", t[-1])
+
+# Tuple slicing
+print("Elements from index 1 to 3:", t[1:4])
+
+# Converting tuple to list
+l = list(t)
+print("Tuple converted to List:", l)
+
+# Converting list back to tuple
+t2 = tuple(l)
+print("List converted back to Tuple:", t2)
