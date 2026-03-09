@@ -1,0 +1,24 @@
+d = {}
+
+d["name"] = "Ravi"
+d["age"] = 20
+d["course"] = "BCA"
+
+print("Dictionary:", d)
+
+print("Name:", d.get("name"))
+
+print("Keys:", d.keys())
+
+print("Values:", d.values())
+
+print("Items:", d.items())
+
+d["age"] = 21
+print("Updated dictionary:", d)
+
+d.pop("course")
+print("After deleting course:", d)
+
+d.clear()
+print("After clearing dictionary:", d)
