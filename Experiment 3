@@ -1,0 +1,21 @@
+
+
+s = "Python Programming"
+
+print("Original String:", s)
+
+print("Length of string:", len(s))
+
+print("Upper case:", s.upper())
+
+print("Lower case:", s.lower())
+
+print("First 6 characters:", s[0:6])
+
+print("Replace word:", s.replace("Python", "Java"))
+
+print("Checking substring:", "Python" in s)
+
+print("Split words:", s.split())
+
+print("Concatenation:", s + " Language")
