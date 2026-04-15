@@ -1,0 +1,16 @@
+import re
+
+text = "My phone number is 9876543210 and email is test123@gmail.com"
+
+# 1. Find all numbers
+numbers = re.findall(r'\d+', text)
+print("Numbers found:", numbers)
+
+# 2. Find email
+email = re.search(r'\S+@\S+', text)
+if email:
+    print("Email found:", email.group())
+
+# 3. Replace digits with *
+new_text = re.sub(r'\d', '*', text)
+print("After replacement:", new_text)
